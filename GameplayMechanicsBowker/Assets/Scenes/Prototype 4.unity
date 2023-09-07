@@ -272,6 +272,8 @@ MonoBehaviour:
   speed: 0.8
   hasPowerup: 0
   powerupIndicator: {fileID: 1904172651}
+  currentPowerUp: 0
+  rocketPrefab: {fileID: 2908972826880184046, guid: 1ee7decbc894f87409d6d1a48e127ca0, type: 3}
 --- !u!1 &184020177
 GameObject:
   m_ObjectHideFlags: 0
@@ -428,10 +430,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d6e1ce52e7a8b474f9f0b50fd04a8533, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  enemyPrefab: {fileID: 4704040039648502181, guid: cfd1c86094028e54f9da1416659d4a33, type: 3}
+  enemyPrefabs:
+  - {fileID: 4704040039648502181, guid: cfd1c86094028e54f9da1416659d4a33, type: 3}
+  - {fileID: 4704040039648502181, guid: 80f16deea9145a74e8b72c6479a92cae, type: 3}
   enemyCount: 0
   waveNumber: 1
-  powerupPrefab: {fileID: 4620456674418633978, guid: a1fda4793ca64ed41b46c7e46467915f, type: 3}
+  powerupPrefabs:
+  - {fileID: 4620456674418633978, guid: a1fda4793ca64ed41b46c7e46467915f, type: 3}
+  - {fileID: 4620456674418633978, guid: d0017c06fa4aba143a54765e8a1fdf53, type: 3}
 --- !u!4 &598883723
 Transform:
   m_ObjectHideFlags: 0
@@ -881,8 +887,8 @@ SceneRoots:
   m_Roots:
   - {fileID: 1211016357}
   - {fileID: 245963551}
-  - {fileID: 7305732181041295649}
   - {fileID: 1403545340}
+  - {fileID: 7305732181041295649}
   - {fileID: 27862758}
   - {fileID: 184020179}
   - {fileID: 598883723}
