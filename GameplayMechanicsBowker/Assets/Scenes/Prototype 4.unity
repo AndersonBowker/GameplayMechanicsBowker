@@ -269,15 +269,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1bd31c3fb5ab13f4897e4a128eac0df1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.8
+  speed: 7
   hasPowerup: 0
   powerupIndicator: {fileID: 1904172651}
   currentPowerUp: 0
   rocketPrefab: {fileID: 2908972826880184046, guid: 1ee7decbc894f87409d6d1a48e127ca0, type: 3}
-  hangTime: 5
-  smashSpeed: 5
-  explosionForce: 5
-  explosionRadius: 5
+  hangTime: 0.3
+  smashSpeed: 25
+  explosionForce: 25
+  explosionRadius: 25
 --- !u!1 &184020177
 GameObject:
   m_ObjectHideFlags: 0
@@ -307,7 +307,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 74107730a8aabb74bb86de78080d6db2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rotationSpeed: 80
+  rotationSpeed: 450
 --- !u!4 &184020179
 Transform:
   m_ObjectHideFlags: 0
